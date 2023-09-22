@@ -7,7 +7,7 @@ function Square(value){
   return <button className="square">{value}</button>;
 }
 export default function Board() {
-  const[values,setState] = useState(Array(9).fill(null));
+  const[values,setState] = useState(Array(9).fill(null)); // Initially filling null values
   return (
     <>
       <div className="board-row">
