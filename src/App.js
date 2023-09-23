@@ -1,6 +1,5 @@
 import { useState } from 'react';
 import logo from './logo.svg';
-//import './styles.css';
 
 function Square(value){
   // Test Commit
