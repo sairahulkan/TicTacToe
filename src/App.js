@@ -2,7 +2,6 @@ import { useState } from 'react';
 import logo from './logo.svg';
 
 function Square(value){
-  // Test Commit
   return <button className="square">{value}</button>;
 }
 export default function Board() {
