@@ -3,7 +3,7 @@ import logo from './logo.svg';
 
 function Square(value){
   return <button className="square">{value}</button>;
-}//
+}
 export default function Board() {
   const[values,setState] = useState(Array(9).fill(null)); // Initially filling null values
   return (
